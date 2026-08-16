@@ -1,8 +1,11 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("student_performance_dirty.csv")
+df = pd.read_csv(r"d:\python-advance\student-performance\student_performance_dirty.csv")
 
 # print(df.head())
 # print(df.shape)
@@ -135,8 +138,28 @@ upper = Q3 + 1.5 * IQR
 #     (df["Math"] > upper)
 # ])
 
-print(df.shape)
-print(df.isnull().sum())
-print(df.duplicated().sum())
-print(df.info())
-print(df.describe())
+# print(df.shape)
+# print(df.isnull().sum())
+# print(df.duplicated().sum())
+# print(df.info())
+# print(df.describe())
+
+df["GPA"] = (df["Math"] + df["Science"] + df["English"]) / 3
+
+df["Gender_binary"] = df["Gender"].map({"female" : 1, "male" : 0})
+df["City_binary"] = df["City"].map({"tehran" : 1 , "mashhad" : 0})
+
+X = df[["Attendance", "Study_Hours", "Age", "Gender_binary", "City_binary"]]
+y = df["GPA"]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+model = LinearRegression()
+model.fit(X_train,y_train)
+
+y_pred = model.predict(X_test)
+
+print("MAE:", mean_absolute_error(y_test, y_pred))
+print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
+print("R2 Score:", r2_score(y_test, y_pred))
