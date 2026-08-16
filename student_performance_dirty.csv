@@ -1,0 +1,18 @@
+Student_ID,Name,Age,Gender,City,Math,English,Science,Attendance,Study_Hours
+1001,Sara,16,Female,Tehran,18.0,17.0,19.0,95.0,2.0
+1002,Ali,17,male,tehran,15.0,14.0,13.0,88.0,3.0
+1003,Mina,15,FEMALE,Mashhad,17.0,16.0,18.0,92.0,4.0
+1004,Reza,16,Male,Mashad,12.0,13.0,11.0,75.0,1.0
+1005,Nika,150,female,Tehran,19.0,18.0,17.0,101.0,50.0
+1006,Amir,17,MALE,Tehran,110.0,15.0,14.0,89.0,2.5
+1007,Sara,16,Female,Tehran,16.0,16.0,16.0,94.0,3.0
+1008,Parsa,14,Male,Mashhad,,12.0,13.0,82.0,4.0
+1009,Yasmin,15,female,mashhad,14.0,150.0,15.0,,2.0
+1010,Arman,16,Female,Tehran,18.0,17.0,18.0,96.0,100.0
+1011,Mina,15,FEMALE,Mashhad,17.0,,17.0,91.0,3.0
+1012,Hana,17,male,Tehran,-5.0,14.0,14.0,85.0,1.5
+1013,Sina,16,Male,tehran,13.0,13.0,105.0,78.0,2.0
+1014,Nima,5,female,Mashhad,16.0,16.0,16.0,90.0,4.0
+1015,Reza,16,Male,Mashhad,15.0,15.0,,87.0,2.0
+1003,Mina,15,FEMALE,Mashhad,17.0,16.0,18.0,92.0,4.0
+1016,  Leila ,16, female ,TEHRAN,17,16,18,93,3

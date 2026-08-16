@@ -1,0 +1,13 @@
+ID,Name,Department,Age,Math,Physics,English
+1,Ali,Computer,20,18,17,20
+2,Sara,Computer,22,15,18,17
+3,Reza,Electrical,19,20,19,18
+4,Neda,Computer,21,17,16,15
+5,Mina,Electrical,20,19,20,19
+6,Amir,Mechanical,23,16,18,17
+7,Zahra,Mechanical,21,18,,20
+8,Hossein,Electrical,,14,15,16
+9,Ava,Computer,20,20,19,
+10,Arman,Mechanical,22,,17,18
+11,Parsa,Electrical,21,17,18,17
+12,Yasmin,Computer,19,19,20,20

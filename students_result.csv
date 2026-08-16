@@ -1,0 +1,13 @@
+ID,Name,Department,Age,Math,Physics,English,Average,Status,Grade
+12,Yasmin,Computer,19.0,19.0,20.0,20.0,19.666666666666668,Pass,A
+5,Mina,Electrical,20.0,19.0,20.0,19.0,19.333333333333332,Pass,A
+3,Reza,Electrical,19.0,20.0,19.0,18.0,19.0,Pass,A
+9,Ava,Computer,20.0,20.0,19.0,17.90909090909091,18.96969696969697,Pass,B
+7,Zahra,Mechanical,21.0,18.0,17.90909090909091,20.0,18.636363636363637,Pass,B
+1,Ali,Computer,20.0,18.0,17.0,20.0,18.333333333333332,Pass,B
+10,Arman,Mechanical,22.0,17.545454545454547,17.0,18.0,17.515151515151516,Pass,B
+11,Parsa,Electrical,21.0,17.0,18.0,17.0,17.333333333333332,Pass,B
+6,Amir,Mechanical,23.0,16.0,18.0,17.0,17.0,Pass,B
+2,Sara,Computer,22.0,15.0,18.0,17.0,16.666666666666668,Fail,C
+4,Neda,Computer,21.0,17.0,16.0,15.0,16.0,Fail,C
+8,Hossein,Electrical,20.727272727272727,14.0,15.0,16.0,15.0,Fail,C
